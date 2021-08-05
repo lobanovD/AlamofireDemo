@@ -6,14 +6,45 @@
 //
 
 import UIKit
+import Alamofire
+
+
+
 
 class ViewController: UIViewController {
-
+    
+    // аутлет Имя
+    @IBOutlet weak var name: UILabel!
+    // аутлет Фамилия
+    @IBOutlet weak var secondName: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(1)
+        
+        DispatchQueue.main.async {
+            let apiRequest = API()
+            apiRequest.getBaseUserInfo()
+        }
+       
+        
+        
+       
+        
+
+                
+                
+               
+                
+                
+                
+            }
+        
+            
     }
 
 
-}
+
+
+
 

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		2819A98426BBF69A0046E955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2819A98226BBF69A0046E955 /* Main.storyboard */; };
 		2819A98626BBF69C0046E955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2819A98526BBF69C0046E955 /* Assets.xcassets */; };
 		2819A98926BBF69C0046E955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2819A98726BBF69C0046E955 /* LaunchScreen.storyboard */; };
+		2819A9A426BC99760046E955 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819A9A326BC99760046E955 /* Settings.swift */; };
+		2819A9A626BC99A30046E955 /* JSONStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819A9A526BC99A30046E955 /* JSONStructures.swift */; };
+		2819A9A826BC9B1D0046E955 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819A9A726BC9B1D0046E955 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		2819A98526BBF69C0046E955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2819A98826BBF69C0046E955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2819A98A26BBF69C0046E955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2819A9A326BC99760046E955 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2819A9A526BC99A30046E955 /* JSONStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStructures.swift; sourceTree = "<group>"; };
+		2819A9A726BC9B1D0046E955 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		6FD1C83D3734E9B3D98CD92A /* Pods_AlamofireDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		872337C436F1C4A19D905FD2 /* Pods-AlamofireDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireDemo.debug.xcconfig"; path = "Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DDB8D01B7BF1DC30D6A0E6E0 /* Pods-AlamofireDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireDemo.release.xcconfig"; path = "Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +80,9 @@
 				2819A97C26BBF69A0046E955 /* AppDelegate.swift */,
 				2819A97E26BBF69A0046E955 /* SceneDelegate.swift */,
 				2819A98026BBF69A0046E955 /* ViewController.swift */,
+				2819A9A726BC9B1D0046E955 /* API.swift */,
+				2819A9A526BC99A30046E955 /* JSONStructures.swift */,
+				2819A9A326BC99760046E955 /* Settings.swift */,
 				2819A98226BBF69A0046E955 /* Main.storyboard */,
 				2819A98526BBF69C0046E955 /* Assets.xcassets */,
 				2819A98726BBF69C0046E955 /* LaunchScreen.storyboard */,
@@ -88,7 +97,6 @@
 				872337C436F1C4A19D905FD2 /* Pods-AlamofireDemo.debug.xcconfig */,
 				DDB8D01B7BF1DC30D6A0E6E0 /* Pods-AlamofireDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,6 +216,9 @@
 			files = (
 				2819A98126BBF69A0046E955 /* ViewController.swift in Sources */,
 				2819A97D26BBF69A0046E955 /* AppDelegate.swift in Sources */,
+				2819A9A626BC99A30046E955 /* JSONStructures.swift in Sources */,
+				2819A9A426BC99760046E955 /* Settings.swift in Sources */,
+				2819A9A826BC9B1D0046E955 /* API.swift in Sources */,
 				2819A97F26BBF69A0046E955 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

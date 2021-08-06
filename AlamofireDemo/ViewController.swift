@@ -17,15 +17,32 @@ class ViewController: UIViewController {
     @IBOutlet weak var name: UILabel!
     // аутлет Фамилия
     @IBOutlet weak var secondName: UILabel!
+    @IBOutlet weak var avatarImage: UIImageView!
+    
+    
+    
+    
+ 
     
     
     override func viewDidLoad() {
+        
+     
+      
+        
+        
+        
+        // создаем экземпляр класса API
+            let apiRequest = API()
+        // вызываем метод обработки данных
+            apiRequest.getBaseUserInfo(name: name, secondName: secondName)
+    
         super.viewDidLoad()
         
-        DispatchQueue.main.async {
-            let apiRequest = API()
-            apiRequest.getBaseUserInfo()
-        }
+        
+        
+        
+
        
         
         
